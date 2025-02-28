@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Vuvedete vuzrastta si: ");
+Console.WriteLine("Vuvedete vuzrastta si: ");
 
 for (int age = int.Parse(Console.ReadLine()); age <= 18;)
 {
@@ -15,11 +15,14 @@ for (int age = int.Parse(Console.ReadLine()); age <= 18;)
             {
 
                 Console.WriteLine("Tq shte poluchi Pari");
-                int sum = 0;
+                double sum = 0;
+                double bytime = 0;
                  Console.WriteLine("Vuvedi parite, koito poluchavash");
-                int money = int.Parse(Console.ReadLine());
-                sum = age * money;
-                 Console.WriteLine($"The total money by the time is:  {sum}");
+                double money = double.Parse(Console.ReadLine());
+                sum = 18 * money;
+                bytime = age * money;
+                 Console.WriteLine($"The total money at the time is:  {bytime}");
+                  Console.WriteLine($"The total money by 18 is:  {sum}");
 
                     break;
     
